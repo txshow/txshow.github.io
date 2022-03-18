@@ -15,7 +15,6 @@
 	<div class="top">
     	<div class="top_nav w1000">
     		<p class="left">欢迎光临视频解析网！</p>
-            <div class="right"><a href="https://tao.qianqi.net/" title="优惠券">优惠券</a> | <a href="http://www.bingdou.com.cn/" title="联系我们">联系我们</a></div>
         </div>
         <div style="clear:both"></div>
     </div>
@@ -40,9 +39,7 @@
 					<li><h2><a href="music.html">音乐盒</a></h2></li>
 					<li><h2><a href="radio.html">网络电台</a></h2></li>
 					<li class="nav-up-selected-inpage"><h2><a href="vod.html">视频解析</a></h2></li>
-					<li><h2><a href="https://so.bingdou.xyz/" target="_blank">全能搜索</a></h2></li>
-					<li><h2><a href="xiu.html">美女秀场</a></h2></li>
-					<li><h2><a href="https://v.bingdou.xyz/" target="_blank">免费电影</a></li>
+					<li><h2><a href="mao.html">圈小猫</a></h2></li>
 					<li><h2><a href="eat.html">今天吃啥呀</a></h2></li>
 				</ul>
 			</div>
@@ -68,7 +65,7 @@
 function player(){
 	var str = document.getElementById("u").value;
 	if(str!=''){w='960';h='520';s='no';
-		document.getElementById("bingdouplayer").innerHTML='<iframe width="'+w+'" height="'+h+'" src="https://api.bingdou.wang/?url='+str+'" frameborder=0 border=0 marginwidth=0 marginheight=0 scrolling='+s+'></iframe>';	
+		document.getElementById("bingdouplayer").innerHTML='<iframe width="'+w+'" height="'+h+'" src="https://bd.jx.cn/?url='+str+'" frameborder=0 border=0 marginwidth=0 marginheight=0 scrolling='+s+'></iframe>';	
 	}else{alert("请填写播放地址");}
 }
 player();
