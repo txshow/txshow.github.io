@@ -51,33 +51,27 @@
 <div class="clear blank10"></div>
 <div class="contentmusic">
 <!--圈小猫代码开始-->
-<div align="center"> 
-	<div id="catch-the-cat"></div> 
-</div> 
-<div class="style6" align="center"> 
-	<p id="time" class="style7">0</p> 
-	<div id="loadad"></div> 
-</div>  
-
+<style>
+        #catch-the-cat {
+            width: 100%;
+            margin-top: 32px;
+            text-align: center;
+        }
+</style>
 <script src="js/phaser.min.js"></script> 
 <script src="js/catch-the-cat.js"></script> 
-<script>
-var myVar = setInterval(myTimer, 1000);
-var time = 0;
-function myTimer() {
-	time += 1;
-	document.getElementById("time").innerHTML = time;
-}
-window.game = new CatchTheCatGame({
-	w: 11,
-	h: 11,
-	r: 20,
-	backgroundColor: 16777215,
-	parent: "catch-the-cat",
-	statusBarAlign: "center",
-	credit: "圈小猫"
-})
-</script> 
+<div id="catch-the-cat"></div>
+    <script>
+      window.game = new CatchTheCatGame({
+        w: 12,
+        h: 12,
+        r: 20,
+        backgroundColor: 0xffffff,
+        parent: 'catch-the-cat',
+        statusBarAlign: 'center',
+        credit: '圈小猫'
+      });
+    </script>
 <!--圈小猫代码结束-->
 </div>
 <div class="clear blank70"></div>
