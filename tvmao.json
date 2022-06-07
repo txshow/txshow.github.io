@@ -106,7 +106,7 @@
     {
       "name": "直解",
       "type": 1,
-      "url": "http://api.vip123kan.vip/?url="
+      "url": "http://103.40.240.46/jh/?url="
     },
     {
       "name": "盘古",
@@ -122,6 +122,11 @@
       "name": "虎猫",
       "type": 1,
       "url": "https://humaosp.com/json.php?url="
+    },
+    {
+      "name": "王牌",
+      "type": 1,
+      "url": "https://za.kuanjv.com/?url="
     },
     {
       "name": "江湖",
