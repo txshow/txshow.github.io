@@ -1,7 +1,7 @@
 ﻿###
 {
   "wallpaper": "https://picsum.photos/320/200/?blur=10", 
-  "spider": "img+https://txshow.github.io/tv/master/spider.bmp", 
+  "spider": "img+https://txshow.github.io/tv/spider.bmp", 
   "sites": [
     {
       "key": "Default_spider", 
