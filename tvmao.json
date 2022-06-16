@@ -31,16 +31,6 @@
       "filterable": 1
     },
     {
-      "key": "csp_appysv2_txys",
-      "name": "团夕影院",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.kan365.xyz/api.php/app/"
-    },
-    {
       "key": "csp_Tangping", 
       "name": "躺平影院", 
       "type": 3, 
@@ -59,15 +49,6 @@
       "quickSearch": 1, 
       "filterable": 1,
       "ext": "https://szys5678.com/mogai_api.php/v1.vod"
-    },
-    {
-      "key": "csp_N0ys", 
-      "name": "九零影院", 
-      "type": 3, 
-      "api": "csp_N0ys", 
-      "searchable": 1, 
-      "quickSearch": 1, 
-      "filterable": 1
     },
     {
       "key": "push_agent", 
