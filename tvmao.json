@@ -4,7 +4,7 @@
   "spider": "https://hitx.coding.net/p/cat/d/config/git/raw/master/custom_spider.jar;md5;eca00df8f708ffc288ecbbc79dfdb680", 
   "sites": [
     {
-      "key": "官方影院", 
+      "key": "Default_spider", 
       "name": "默认影院", 
       "type": 3, 
       "api": "csp_Ys360", 
@@ -13,7 +13,7 @@
       "filterable": 1
     },
     {
-      "key": "七七影院", 
+      "key": "csp_Ys77", 
       "name": "七七影院", 
       "type": 3, 
       "api": "csp_Ys77", 
@@ -22,7 +22,7 @@
       "filterable": 1
     },
     {
-      "key": "爱看影院", 
+      "key": "csp_IKan", 
       "name": "爱看影院", 
       "type": 3, 
       "api": "csp_IKan", 
@@ -31,7 +31,7 @@
       "filterable": 1
     },
     {
-      "key": "躺平影院", 
+      "key": "csp_Tangping", 
       "name": "躺平影院", 
       "type": 3, 
       "api": "csp_AppYsV2", 
@@ -41,7 +41,7 @@
       "ext": "http://www.lltpys.com/api.php/app/"
     },
     {
-      "key": "手指影院", 
+      "key": "csp_Shouzhi", 
       "name": "手指影院", 
       "type": 3, 
       "api": "csp_AppYsV2", 
