@@ -50,6 +50,7 @@
       "filterable": 1,
       "ext": "https://szys5678.com/mogai_api.php/v1.vod"
     }
+      ], 
   "lives": [
     {
       "group": "redirect",
@@ -65,7 +66,7 @@
   ],
   "parses": [
     {
-      "name": "Json聚合",
+      "name": "聚合",
       "type": 3,
       "url": "Demo"
     },
