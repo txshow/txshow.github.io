@@ -49,6 +49,15 @@
       "quickSearch": 1, 
       "filterable": 1,
       "ext": "https://szys5678.com/mogai_api.php/v1.vod"
+    },
+    {
+      "key": "push_agent", 
+      "name": "推送", 
+      "type": 3, 
+      "api": "csp_PushAgent", 
+      "searchable": 0, 
+      "quickSearch": 0, 
+      "filterable": 0
     }
       ], 
   "lives": [
