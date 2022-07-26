@@ -1,22 +1,22 @@
 ﻿###
 {
   "wallpaper": "https://picsum.photos/320/200/?blur=10", 
-  "spider": "https://codeberg.org/hongshow/TV/raw/branch/master/custom_spider.jar;md5;5beee145376dd080421f29b08bb2ee98", 
+  "spider": "https://txshow.github.io/tv/custom_spider.jar;md5;f9e76555801c1a9c535c7f1375a9f902", 
   "sites": [
     {
       "key": "Default_spider", 
       "name": "默认影院", 
       "type": 3, 
-      "api": "csp_Ys360", 
+      "api": "csp_SP360", 
       "searchable": 1, 
       "quickSearch": 1, 
       "filterable": 1
     },
     {
-      "key": "csp_Ys77", 
+      "key": "csp_Kunyu77", 
       "name": "七七影院", 
       "type": 3, 
-      "api": "csp_Ys77", 
+      "api": "csp_Kunyu77", 
       "searchable": 1, 
       "quickSearch": 1, 
       "filterable": 1
@@ -31,12 +31,39 @@
       "filterable": 1
     },
     {
+      "key": "csp_Juztv", 
+      "name": "桔子影院", 
+      "type": 3, 
+      "api": "csp_Juztv", 
+      "searchable": 1, 
+      "quickSearch": 1, 
+      "filterable": 1
+    },
+    {
       "key": "csp_LiteApple", 
       "name": "小苹果", 
       "type": 3, 
       "api": "csp_LiteApple", 
       "searchable": 1, 
       "quickSearch": 1, 
+      "filterable": 1
+    },
+    {
+      "key": "csp_Cokemv",
+      "name": "Cokemv",
+      "type": 3,
+      "api": "csp_Cokemv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Auete",
+      "name": "Auete",
+      "type": 3,
+      "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
@@ -66,7 +93,7 @@
         {
           "name": "Live",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly90eHNob3cuZ2l0aHViLmlvL2xpdmUvdHYudHh0"
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9rZHMyLmNvZGluZy5uZXQvcC9rL2Qvay9naXQvcmF3L21hc3Rlci9tYW9saXZlLnR4dA=="
           ]
         }
       ]
@@ -81,62 +108,38 @@
     {
       "name": "293",
       "type": 1,
-      "url": "http://81.71.48.249:4456/jsonc/longxia.php?url=",
+      "url": "http://47.98.234.2:7768/api.php?url=",
       "ext": {
-        "flag": [
-          "qq",
-          "qiyi",
-          "mgtv",
-          "youku",
-          "letv",
-          "sohu",
-          "xigua",
-          "1905"
-        ],
         "header": {
-          "User-Agent": "Dart/2.14 (dart:io)"
+          "User-Agent": "User-Agent":"Dart/2.14 (dart:io)"
         }
       }
     },
     {
-      "name": "龙虾",
+      "name": "全网",
       "type": 1,
-      "url": "http://106.55.234.91:4433/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "qiyi",
-          "mgtv",
-          "youku",
-          "letv",
-          "sohu",
-          "xigua",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "Dalvik/2.1.0"
-        }
-      }
+      "url": "http://124.222.68.182/jiexi/4kJX.php/?url="
     },
     {
-      "name": "乌乐",
+      "name": "王牌",
       "type": 1,
-      "url": "https://json.5lp.net/json.php?url="
-    },
-    {
-      "name": "虎猫",
-      "type": 1,
-      "url": "https://humaosp.com/json.php?url="
+      "url": "https://za.kuanjv.com/?url="
     },
     {
       "name": "江湖",
       "type": 1,
-      "url": "https://json.hfyrw.com/mao.go?url="
+      "url": "https://www.hfyrw.com/json.php?url="
+    },
+
+    {
+      "name": "云解",
+      "type": 1,
+      "url": "http://106.52.218.221:88/?url="
     },
     {
       "name": "极速",
       "type": 1,
-      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
+      "url": "https://openapi.973973.xyz/973/api/api_best.php?pltfrom=1100&key=973913e&url="
     }
   ],
   "flags": [
